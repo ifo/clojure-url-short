@@ -1,7 +1,7 @@
-(ns url-short.handler-test
+(ns clojurl.handler-test
   (:require [clojure.test :refer :all]
             [ring.mock.request :as mock]
-            [url-short.handler :refer :all]))
+            [clojurl.handler :refer :all]))
 
 (deftest test-app
   (testing "main route"

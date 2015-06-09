@@ -1,4 +1,4 @@
-# url-short
+# clojurl
 
 FIXME
 

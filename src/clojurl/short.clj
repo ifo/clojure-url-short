@@ -1,4 +1,4 @@
-(ns url-short.short)
+(ns clojurl.short)
 
 (def urls
   (atom {}))

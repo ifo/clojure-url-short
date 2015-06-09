@@ -1,5 +1,5 @@
-(ns url-short.handler
-  (:use [url-short.short :only (shorten lengthen urls)])
+(ns clojurl.handler
+  (:use [clojurl.short :only (shorten lengthen urls)])
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
